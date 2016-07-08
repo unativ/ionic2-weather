@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button royal (click)="addWeather()">
+        Add
+      </button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="home">
+  {{weatherList | json}}
+</ion-content>
